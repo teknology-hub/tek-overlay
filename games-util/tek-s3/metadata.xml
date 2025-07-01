@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>nuclearist@teknology-hub.com</email>
+    <name>Nuclearist</name>
+    <description>Author</description>
+  </maintainer>
+  <use>
+    <flag name="zlib-ng">Use <pkg>sys-libs/zlib-ng</pkg> instead of <pkg>sys-libs/zlib</pkg></flag>
+  </use>
+</pkgmetadata>
