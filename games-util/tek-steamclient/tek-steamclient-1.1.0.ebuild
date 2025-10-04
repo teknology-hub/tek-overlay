@@ -13,7 +13,7 @@ https://github.com/TinyTinni/ValveFileVDF/archive/refs/tags/v1.1.1.tar.gz
 "
 
 LICENSE="GPL-3+"
-SLOT="0"
+SLOT="1"
 KEYWORDS="amd64"
 
 IUSE="+app-manager +cli +cli-dump +content io-uring +nls +qr +s3-client +steampipe zlib-ng"
@@ -25,7 +25,7 @@ REQUIRED_USE="
 COMMON_DEPEND="
 	dev-db/sqlite
 	dev-libs/openssl
-	dev-libs/protobuf[protobuf(+)]
+	dev-libs/protobuf:=[protobuf(+)]
 	net-libs/libwebsockets[client,extensions,ssl]
 	net-misc/curl[ssl]
 	app-manager? (
@@ -48,7 +48,7 @@ DEPEND="
 	dev-libs/rapidjson
 "
 BDEPEND="
-dev-libs/protobuf[protoc(+)]
+dev-libs/protobuf:=[protoc(+)]
 nls? ( sys-devel/gettext )
 "
 RDEPEND="${COMMON_DEPEND}"
