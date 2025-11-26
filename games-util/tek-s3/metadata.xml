@@ -7,6 +7,6 @@
     <description>Author</description>
   </maintainer>
   <use>
-    <flag name="zlib-ng">Use <pkg>sys-libs/zlib-ng</pkg> instead of <pkg>sys-libs/zlib</pkg></flag>
+    <flag name="zlib-ng">Use <pkg>sys-libs/zlib-ng</pkg> instead of <pkg>virtual/zlib</pkg></flag>
   </use>
 </pkgmetadata>
