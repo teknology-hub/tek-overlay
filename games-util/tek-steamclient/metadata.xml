@@ -12,7 +12,6 @@
     <flag name="cli-dump">Build dump module of tek-sc-cli (support for dumping tek-steamclient content files in human-readable text format). Requires "app_manager"</flag>
     <flag name="content">Build content API declared in content.h</flag>
     <flag name="minizip-ng">Use <pkg>sys-libs/minizip-ng</pkg> instead of <pkg>virtual/minizip</pkg></flag>
-    <flag name="qr">Enable support for QR code-based authentication in tek-sc-cli via <pkg>media-gfx/qrencode</pkg></flag>
     <flag name="s3-client">Build tek-s3 client side API declared in s3c.h</flag>
     <flag name="steampipe">Build SteamPipe downloader API declared in sp.h</flag>
     <flag name="zlib-ng">Use <pkg>sys-libs/zlib-ng</pkg> instead of <pkg>virtual/zlib</pkg></flag>
